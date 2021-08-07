@@ -1,4 +1,55 @@
-header {
-    color: red
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+:root {
+    --primary-color: red;
+}
+
+/* header styling START */
+header {
+    padding: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    background-size: cover;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+/* header styling END */
+
+
+body {
+
+}
+
+
+.about-me img {
+    max-width: 20%;
+    height: auto;
+}
