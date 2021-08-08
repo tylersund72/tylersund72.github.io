@@ -96,8 +96,6 @@ body {
     height: auto;
 }
 
-
-
 /* contact START */
 .contact-me li {
     padding: 20px 20px;
@@ -112,8 +110,27 @@ body {
 
 /* my work START */
 .applications {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
 }
+
+#run-buddy {
+    width: 250px;
+    height: auto;
+}
+
+#horiseon {
+    width: 175px;
+    height: auto;
+}
+
+.work div {
+    
+}
+
+/* my work END */
 
 /* footer START */
 footer {
