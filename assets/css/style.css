@@ -19,9 +19,10 @@ header {
     position: sticky;
     background-size: cover;
     top: 0;
+    background-color: var(--light-color);
 }
 
-header h1{
+header h1 {
     font-weight: bold;
     font-size: 32px;
     color: var(--primary-color);
@@ -47,23 +48,91 @@ header nav ul {
 }
 
 header nav ul li a {
+    font-weight: bold;
     padding: 5px 10px;
-    font-size: 1.85vw;
+    font-size: 24px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: 0 25px;
+    margin: 0 45px;
     color: var(--primary-color);
   }
 
 /* header styling END */
 
-
-body {
-    color: var(--dark-color);  
-    background-color: var(--light-color);
+.section-title {
+    font-size: 50px;
+    color: var(--light-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 35%;
 }
 
 
-.about-me img {
+body {
+    color: var(--light-color);  
+    background-color: var(--dark-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me h2 {
+    color: var(--primary-color);
+}
+
+.about-me-bio h5{
+    padding-bottom: 8px;
+    text-align: left;
+    width: 4%;
+}
+
+.about img {
     max-width: 20%;
     height: auto;
 }
+
+
+
+/* contact START */
+.contact-me li {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+
+.contact-me ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* contact END */
+
+/* my work START */
+.applications {
+
+}
+
+/* footer START */
+footer {
+    padding: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    background: var(--light-color);
+}
+
+footer h2 {
+    font-size: 45px;
+    margin: 20px;
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 35%;
+}
+/* footer END */
